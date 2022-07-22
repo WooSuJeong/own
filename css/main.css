@@ -1,0 +1,249 @@
+
+/* main-banner */
+#main-banner{
+    width: 100%;
+    margin-top: 80px;
+}
+#main-banner img{
+    width: 100%;
+}
+#main-banner .swiper-button-next,
+#main-banner .swiper-button-prev{
+    color: #f0e6da;
+}
+#main-banner .swiper-pagination span{
+    background-color: #f0e6da;
+}
+
+/* best */
+#best{
+    padding-top: 150px;
+    background-color: #f0e6da;
+}
+#best .inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 41px;
+    padding-bottom: 70px;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+#best .prdct-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+#best .prdct{
+    margin: 30px;
+}
+#best .prdct .img{
+    position: relative;
+}
+#best .prdct .black-box{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 5;
+    opacity: 0;
+    transition: all .3s;
+}
+#best .prdct:hover .black-box{
+    opacity: 1;
+}
+#best .textbox{
+    box-sizing: border-box;
+    width: 360px;
+    padding: 25px 15px;
+}
+#best .textbox .name{
+    font-size: 19.5px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#best .textbox .name span{
+    font-size: 12px;
+}
+#best .textbox .price{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+/* new */
+#new{
+    background-color: #fff;
+}
+#new .inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+#new .prdct-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+#new .prdct{
+    /* float: left; */
+    margin: 30px;
+}
+#new .prdct3{
+    margin-right: 0;
+}
+#new .prdct .img{
+    position: relative;
+}
+#new .prdct .black-box{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 5;
+    opacity: 0;
+    transition: all .3s;
+}
+#new .prdct:hover .black-box{
+    opacity: 1;
+}
+#new .textbox{
+    box-sizing: border-box;
+    width: 360px;
+    padding: 25px 15px;
+}
+
+#new .textbox .name{
+    font-size: 19.5px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#new .textbox .name span{
+    font-size: 12px;
+}
+#new .textbox .price{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+
+}
+
+/* cycle */
+#cycle{
+    width: 100%;
+    height: 540px;
+    background: url("../images/main-cycle-banner-bg.jpg") no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#cycle p{
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 2%;
+    color: #332922;
+}
+#cycle p span{
+    font-weight: 700;
+}
+#cycle a.btn{
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #4b3126;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #ecd5cb;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+#cycle a.btn:hover{
+    background-color: #685446;
+}
+
+/* brewing guide */
+#guide{
+    background-color: #fff;
+}
+#guide .inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 190px 0;
+}
+#guide h2{
+    margin-bottom: 79px;
+}
+#guide .brewing{
+    display: flex;
+    justify-content: center;
+}
+#guide .brew{
+    width: 280px;
+    height: 280px;
+    margin: 0 20px;
+    position: relative;
+    perspective: 300px;
+}
+#guide .brew .f-box,
+#guide .brew .b-box{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    backface-visibility: hidden;
+    transition: .7s;
+}
+#guide .brew .b-box{
+    border: 3px dashed #685446;
+    border-radius: 50%;
+}
+#guide .brew .b-box p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #685446;
+    text-align: center;
+    margin-top: 140px;
+}
+
+#guide .brew .f-box{
+    transform: rotateY(0deg);
+}
+#guide .brew:hover .f-box{
+    transform: rotateY(180deg);
+}
+#guide .brew .b-box{
+    transform: rotateY(-180deg);
+}
+#guide .brew:hover .b-box{
+    transform: rotateY(0deg);
+}
+
+
+/* video */
+#video{
+    background-color: #fff;
+}
+#video .inner{
+    width: 1320px;
+
+    margin: 0 auto;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+video{
+    width: 1320px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
