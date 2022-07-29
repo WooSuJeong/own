@@ -1,0 +1,269 @@
+
+/* m-banner */
+#m-banner{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#m-banner img{
+    width: 100%;
+}
+
+/* c-option */
+#c-option{
+    background-color: #fff;
+    color: #685446;
+    text-align: center;
+}
+#c-option .inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+#c-option h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 148px auto 89px;
+}
+#c-option .bean-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+#c-option .bean-wrap .bean{
+    width: 540px;
+    height: 200px;
+    background-color: #f0e6da;
+    border-radius: 120px;
+    margin: 0 60px;
+    transition: all .3s;
+}
+#c-option .bean-wrap .bean:hover{
+    box-shadow: 0px 0px 15px rgba(104, 84, 70, .2);
+}
+#c-option .bean-wrap .bean h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 36px auto 34px;
+}
+#c-option .bean-wrap .bean p{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+#c-option .term-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+#c-option .term table{
+    width: 400px;
+    color: #685446;
+    border-collapse: collapse;
+}
+
+#c-option .term th{
+    font-size: 30px;
+    font-weight: 500;
+    color: #f0e6da;
+    background-color: #685446;
+    padding: 20px 0 10px;
+}
+#c-option .term td{
+    font-size: 24px;
+    padding: 23px 0 12px;
+}
+#c-option .term td.lt{
+    background-color: #f0e6da;
+}
+#c-option .term td.dk{
+    background-color: #decebc;
+}
+
+#c-option .grind{
+    width: 1320px;
+    height: 100px;
+    background-color: #decebc;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    box-sizing: border-box;
+}
+#c-option .precaution{
+    font-size: 18px;
+    line-height: 2;
+    margin: 70px 0 93px;
+}
+
+/* week */
+#week{
+    height: 850px;
+    background: url("../images/sub3-cycle-img-bg-2.png") no-repeat;
+    margin-bottom: 150px;
+}
+#week .inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+#week h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #685446;
+    padding-top: 120px;
+    margin-bottom: 38px;
+}
+#week .choice-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+#week .choice-wrap .choice{
+    color: #f0e6da;
+    width: 640px;
+    height: 560px;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+#week .choice-wrap .choice h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+#week .choice-wrap .choice h4{
+    font-size: 21px;
+    margin-top: 18px;
+    margin-bottom: 57px;
+}
+#week .choice-wrap .choice p{
+    line-height: 2;
+}
+#week .choice-wrap .choice1{
+    background: #685446 url("../images/sub3-cycle-img-illust-1.png");
+    background-repeat: no-repeat;
+    background-position: 143% -9%;
+}
+#week .choice-wrap .choice2{
+    background: #685446 url("../images/sub3-cycle-img-illust-2.png");
+    background-repeat: no-repeat;
+    background-position: 120% -55%;
+}
+
+/* subscribe */
+#subscribe{
+    background-color: #fff;
+}
+#subscribe .inner{
+    width: 1100px;
+    margin: 0 auto;
+}
+#subscribe>.inner>h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 38px 0;
+}
+
+#subscribe .subs .subs-list{
+    background-color: #decebc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#subscribe .subs .subs-list .title{
+    color: #685446;
+    background-color: #decebc;
+    overflow: hidden;
+    box-sizing: border-box;
+	padding: 25px 0px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#subscribe .text_info{
+    padding: 10px;
+	background: #f6f1ec;
+	display: none;
+}
+#subscribe .subs-list:first-child .text_info{
+    display: block;
+}
+/* #subscribe .subs-list:first-child .title img{
+    transform: rotate(180deg);
+} */
+/* #subscribe .subs-list .text_info{
+    display: block;
+} */
+#subscribe .text_info ul.subs-con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 8px 20px;
+}
+#subscribe .text_info ul.subs-con li {
+    color: #685446;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    padding: 25px 0px 15px;
+    box-sizing: border-box;
+    background-color: #f0e6da;
+    border-radius: 5px;
+    margin: 8px 20px;
+    cursor: pointer;
+}
+#subscribe .text_info .subs-con.con1 li{
+    width: 360px;
+    margin: 8px 60px;
+}
+#subscribe .text_info .subs-con.con2 li{
+    width: 240px;
+    margin: 8px 30px;
+}
+#subscribe .text_info .subs-con.con3 li{
+    width: 180px;
+    margin: 8px 20px;
+}
+#subscribe .text_info .subs-con.con4 li{
+    width: 360px;
+    margin: 8px 60px;
+}
+#subscribe .plus{
+	margin-right: 20px;
+}
+#subscribe .plus img{
+    width: 18px;
+    transition:transform 0.5s;
+}
+#subscribe .title .turn img{
+    transform:rotate(180deg);
+}
+
+#subscribe .on-pay{
+    display: flex;
+    justify-content: center;
+}
+#subscribe .send{
+    text-align: center;
+    display: inline-block;
+    width: 320px;
+    height: 60px;
+    margin-top: 60px;
+    margin-bottom: 213px;
+    background-color: #f0e6da;
+    padding: 25px 0 15px;
+    color: #685446;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#subscribe .send:hover{
+    background-color: #decebc;
+}
+
+.turn img{
+    transform:rotate(360deg);
+}
+
+.text_info{
+    display: none;
+}

@@ -1,0 +1,232 @@
+/* banner */
+#m-banner{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+#m-banner img{
+    width: 100%;
+}
+
+/* brand */
+#brand{
+    background-color: #fff;
+    color: #685446;
+    height: 2750px;
+    position: relative;
+}
+#brand h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+#brand .brand-1,
+#brand .brand-2,
+#brand .brand-3{
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+#brand .brand-1 .b-img,
+#brand .brand-2 .b-img,
+#brand .brand-3 .b-img{
+    /* width: 100%; */
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#brand .brand-1 .b-box,
+#brand .brand-2 .b-box,
+#brand .brand-3 .b-box{
+    /* width: 1320px; */
+    width: 1070px;
+    height: 500px;
+    background-color: #f0e6da;
+    border-radius: 0 0 0 500px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+#brand .brand-1 .b-box h1{
+    font-family: 'LeferiPoint-SpecialA';
+    font-size: 54px;
+    padding: 46px 0 69px 109px;
+}
+#brand .brand-1 .b-box p{
+    font-size: 24px;
+    line-height: 2;
+    text-align: right;
+    position: absolute;
+    top: 158px;
+    left: 188px;
+}
+#brand .brand-1 .b-box img{
+    position: absolute;
+    bottom: -70px;
+    left: 670px;
+}
+
+#brand .brand-2 .b-box h1{
+    font-family: 'LeferiPoint-SpecialA';
+    font-size: 54px;
+    padding: 46px 0 42px 109px;
+}
+#brand .brand-2 .b-box p,
+#brand .brand-3 .b-box p{
+    font-size: 24px;
+    line-height: 2;
+    text-align: right;
+    position: absolute;
+    top: 130px;
+    left: 205px;
+}
+#brand .brand-2 .b-box img{
+    position: absolute;
+    bottom: -94px;
+    left: 670px;
+}
+#brand .brand-3 .b-box h1{
+    font-family: 'LeferiPoint-SpecialA';
+    font-size: 54px;
+    padding: 46px 0 42px 109px;
+}
+#brand .brand-3 .b-box img{
+    position: absolute;
+    bottom: -46px;
+    left: 670px;
+}
+
+/* guide */
+#guide{
+    background-color: #fff;
+    color: #685446;
+    text-align: center;
+}
+#guide .inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+#guide h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 88px;
+    margin-bottom: 60px;
+}
+#guide p.infor{
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 46px;
+}
+#guide .swiper-slide img{
+    display: inline-block;
+}
+#guide .swiper-slide p{
+    font-size: 18px;
+    margin: 46px auto 108px;
+}
+#guide .swiper-pagination span{
+    background-color: #685446;
+}
+
+/* promise */
+#promise{
+    background-color: #fff;
+    color: #685446;
+    margin-bottom: 150px;
+}
+#promise .inner{
+    width: 1100px;
+    height: 1550px;
+    margin: 0 auto;
+    background-color: #f0e6da;
+    /* border: 3px dashed #685446; */
+    border-radius: 75px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='75' ry='75' stroke='%23685446FF' stroke-width='5' stroke-dasharray='10%2c6' stroke-dashoffset='13' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+#promise .h-circle{
+    background-color: #685446;
+    width: 320px;
+    height: 182px;
+    border-radius: 50%;
+    position: absolute;
+    top: -91px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#promise .h-circle h2{
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: #f0e6da;
+}
+#promise .prm div[class*=p-text]{
+    box-sizing: border-box;
+    width: 600px;
+    height: 170px;
+    position: absolute;
+    border-radius: 85px;
+    padding: 32px 64px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='85' ry='85' stroke='%23685446FF' stroke-width='3' stroke-dasharray='10%2c6' stroke-dashoffset='35' stroke-linecap='butt'/%3e%3c/svg%3e");
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+#promise .prm .p-img1{
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+#promise .prm .p-text1{
+    top: 175px;
+    right: 110px;
+}
+
+#promise .prm .p-text2{
+    top: 420px;
+    left: 110px;
+}
+#promise .prm .p-img2{
+    position: absolute;
+    top: 420px;
+    right: 110px;
+}
+#promise .prm .p-img3{
+    position: absolute;
+    top: 690px;
+    left: 110px;
+}
+#promise .prm .p-text3{
+    top: 715px;
+    right: 110px;
+}
+#promise .prm .p-text4{
+    bottom: 395px;
+    left: 110px;
+}
+#promise .prm .p-img4{
+    position: absolute;
+    bottom: 370px;
+    right: 110px;
+}
+#promise .prm .p-img5{
+    position: absolute;
+    bottom: 100px;
+    left: 110px;
+}
+#promise .prm .p-text5{
+    bottom: 125px;
+    right: 110px;
+}
