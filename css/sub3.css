@@ -58,6 +58,10 @@
     width: 400px;
     color: #685446;
     border-collapse: collapse;
+    transition: all .3s;
+}
+#c-option .term table:hover{
+    box-shadow: 0px 0px 15px rgba(104, 84, 70, .2);
 }
 
 #c-option .term th{
@@ -87,6 +91,10 @@
     padding-top: 40px;
     padding-bottom: 33px;
     box-sizing: border-box;
+    transition: all .3s;
+}
+#c-option .grind:hover{
+    box-shadow: 0px 0px 15px rgba(104, 84, 70, .2);
 }
 #c-option .precaution{
     font-size: 18px;
