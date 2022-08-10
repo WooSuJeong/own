@@ -121,10 +121,17 @@
 #guide p.infor{
     font-size: 18px;
     line-height: 36px;
-    margin-bottom: 46px;
+    margin-bottom: 16px;
+}
+#guide .swiper-wrapper{
+    padding-top: 30px;
 }
 #guide .swiper-slide img{
     display: inline-block;
+    transition: all .3s;
+}
+#guide .swiper-slide:hover img{
+    transform: translateY(-3%);
 }
 #guide .swiper-slide p{
     font-size: 18px;
